@@ -368,7 +368,7 @@ export default function ForCuratorsPage() {
                 <p><strong className="text-white">4.</strong> Most important: Delete the genres which don't apply to your playlist to avoid getting wrong song submissions!</p>
               </div>
               <Link
-                href="https://app.songrocket.com/register"
+                href="/join"
                 className="btn-primary inline-flex items-center gap-2 mt-6"
                 target="_blank"
               >
@@ -403,7 +403,7 @@ export default function ForCuratorsPage() {
                 Join our network of curators and start monetizing your playlists today.
               </p>
               <Link
-                href="https://app.songrocket.com/register"
+                href="/join"
                 className="btn-primary inline-flex items-center"
                 target="_blank"
               >

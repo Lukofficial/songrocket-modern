@@ -38,7 +38,7 @@ export default function ForArtistsPage() {
                   Don't wait, start your promotional campaign today! You can also pitch from an older release, as we all know... Every song has a chance to get viral and doesn't have an expiry date to get heard from the audience you deserve!
                 </p>
                 <Link
-                  href="https://app.songrocket.com/register"
+                  href="/join"
                   className="btn-primary inline-flex items-center gap-2"
                   target="_blank"
                 >
@@ -141,7 +141,7 @@ export default function ForArtistsPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="https://app.songrocket.com/register"
+                href="/join"
                 className="btn-primary inline-flex items-center justify-center gap-2"
                 target="_blank"
               >

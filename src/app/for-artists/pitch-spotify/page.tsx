@@ -93,7 +93,7 @@ export default function PitchSpotifyPage() {
 
               <div className="text-center">
                 <Link
-                  href="https://app.songrocket.com/register"
+                  href="/join"
                   className="btn-primary inline-flex items-center gap-2"
                   target="_blank"
                 >

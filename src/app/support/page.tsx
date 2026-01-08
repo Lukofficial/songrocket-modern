@@ -156,7 +156,7 @@ export default function SupportPage() {
                   Easily send your music to our playlist curators. If they like it, they'll let you know when and how they plan to share it.
                 </p>
                 <Link
-                  href="https://app.songrocket.com/register"
+                  href="/join"
                   className="btn-outline border-white text-white hover:bg-white hover:text-[#0e0c0c] inline-flex items-center"
                   target="_blank"
                 >
@@ -171,7 +171,7 @@ export default function SupportPage() {
                   Artist and music discovery made simple for playlisters, bloggers and record label A&R representatives.
                 </p>
                 <Link
-                  href="https://app.songrocket.com/register"
+                  href="/join"
                   className="btn-outline border-white text-white hover:bg-white hover:text-[#0e0c0c] inline-flex items-center"
                   target="_blank"
                 >

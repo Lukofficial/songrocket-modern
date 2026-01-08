@@ -38,7 +38,7 @@ export default function ForCuratorsPage() {
                   Stand out from the crowd and choose songs you have never heard before, which will make your playlist as unique as you are.
                 </p>
                 <Link
-                  href="https://app.songrocket.com/register"
+                  href="/join"
                   className="btn-primary inline-flex items-center gap-2"
                   target="_blank"
                 >
@@ -130,7 +130,7 @@ export default function ForCuratorsPage() {
             </h2>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="https://app.songrocket.com/register"
+                href="/join"
                 className="btn-primary inline-flex items-center justify-center gap-2"
                 target="_blank"
               >

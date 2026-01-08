@@ -271,7 +271,7 @@ export default function CaseStudyPage() {
                 Join thousands of artists who have grown their Spotify presence through our platform.
               </p>
               <Link
-                href="https://app.songrocket.com/register"
+                href="/join"
                 className="btn-primary inline-flex items-center"
                 target="_blank"
               >

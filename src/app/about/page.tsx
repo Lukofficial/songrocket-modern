@@ -41,7 +41,7 @@ export default function AboutPage() {
                   So what are you waiting for?
                 </p>
                 <Link
-                  href="https://app.songrocket.com/register"
+                  href="/join"
                   className="btn-primary inline-flex items-center gap-2"
                   target="_blank"
                 >
@@ -119,7 +119,7 @@ export default function AboutPage() {
                   Easily send your music to our playlist curators. If they like it, they'll let you know when and how they plan to share it.
                 </p>
                 <Link
-                  href="https://app.songrocket.com/register"
+                  href="/join"
                   className="btn-outline border-white text-white hover:bg-white hover:text-[#0e0c0c] inline-flex items-center"
                   target="_blank"
                 >
@@ -134,7 +134,7 @@ export default function AboutPage() {
                   Artist and music discovery made simple for playlisters, bloggers and record label A&R representatives.
                 </p>
                 <Link
-                  href="https://app.songrocket.com/register"
+                  href="/join"
                   className="btn-outline border-white text-white hover:bg-white hover:text-[#0e0c0c] inline-flex items-center"
                   target="_blank"
                 >

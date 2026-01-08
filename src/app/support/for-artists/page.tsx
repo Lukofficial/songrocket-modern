@@ -409,7 +409,7 @@ export default function ForArtistsPage() {
                 Start promoting your music to our network of playlist curators today.
               </p>
               <Link
-                href="https://app.songrocket.com/register"
+                href="/join"
                 className="btn-primary inline-flex items-center"
                 target="_blank"
               >

@@ -42,7 +42,7 @@ export default function LoginForPricesPage() {
                   <ArrowRight className="w-5 h-5" />
                 </Link>
                 <Link
-                  href="https://app.songrocket.com/register"
+                  href="/join"
                   className="btn-outline w-full inline-flex items-center justify-center"
                   target="_blank"
                 >
