@@ -34,6 +34,7 @@ const navItems = [
     dropdown: [
       { label: "Login For Prices", href: "/pricing/login" },
       { label: "Pricing FAQ", href: "/pricing/faq" },
+      { label: "Case Studies", href: "/support/faqs/case-study" },
     ],
   },
   {
