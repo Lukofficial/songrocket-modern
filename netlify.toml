@@ -1,9 +1,12 @@
 [images]
   remote_images = ["https://source.unsplash.com/.*", "https://images.unsplash.com/.*", "https://ext.same-assets.com/.*", "https://ugc.same-assets.com/.*", "https://wallpapers.com/.*"]
 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 [build]
   command = "npm install && npm run build"
-  publish = "out"
+  publish = ".next"
 
 # Redirect for Decap CMS admin
 [[redirects]]
