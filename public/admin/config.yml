@@ -1,0 +1,57 @@
+backend:
+  name: github
+  repo: Lukofficial/songrocket-modern
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+# Uncomment for local development
+# local_backend: true
+
+# Site URL (update after deployment)
+site_url: https://songrocket.com
+
+# Logo for CMS
+logo_url: /images/logo.svg
+
+# Media settings
+media_folder: public/images/blog
+public_folder: /images/blog
+
+# Publish mode - editorial workflow allows draft/review/publish states
+publish_mode: editorial_workflow
+
+# Slug settings
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["date", "title"]
+    summary: "{{title}} - {{date}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Slug", name: "slug", widget: "string", required: true, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Lowercase letters, numbers, and hyphens only"] }
+      - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Category", name: "category", widget: "select", options: ["Industry Insights", "Tips & Tricks", "Branding", "News"] }
+      - { label: "Featured Image", name: "image", widget: "image", required: true }
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: true }
+      - { label: "Author", name: "author", widget: "string", default: "SongRocket Team" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "general"
+        label: "General Settings"
+        file: "content/settings/general.json"
+        fields:
+          - { label: "Site Title", name: "title", widget: "string" }
+          - { label: "Site Description", name: "description", widget: "text" }
+          - { label: "Contact Email", name: "email", widget: "string" }
