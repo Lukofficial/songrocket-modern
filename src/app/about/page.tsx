@@ -82,7 +82,7 @@ export default function AboutPage() {
                   Through his passion, Luk progressed his self-taught skills of Electro and House, to play in some top clubs in Switzerland. His presence behind the mixer consistently creating an enthusiastic and attentive crowd.
                 </p>
                 <p className="text-white/70 text-lg mb-8 leading-relaxed">
-                  By the end of December 2018, Luk started to release his own tracks and has over <span className="text-[#FF6B35] font-semibold">3.5 million streams</span> on Spotify and other platforms only so far - a significant accomplishment for an independent artist. His goal is now with SongRocket to connect independent music makers with listeners around the globe.
+                  By the end of December 2018, Luk started to release his own tracks and has over <span className="text-[#FF6B35] font-semibold">22 Million streams across all platforms</span> - a significant accomplishment for an independent artist. His goal is now with SongRocket to connect independent music makers with listeners around the globe.
                 </p>
                 <div className="flex gap-4">
                   <a
